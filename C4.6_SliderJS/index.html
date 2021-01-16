@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Slider JS Example</title>
+  <style>
+    .slider-heading {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: sans-serif;
+    }
+
+    .slider {
+      text-align: center;
+    }
+
+    .container {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      width: 500px;
+      height: 300px;
+    }
+
+		.slide-img {
+      top: 0;
+      left: 0;
+      position: absolute;
+			width: 500px;
+      height: 300px;
+		}
+	</style>
+	<script src="js/slider.js" defer></script>
+</head>
+
+<body>
+  <section>
+    <h3 class="slider-heading">Slider</h3>
+  	<div class="slider">
+  		<button class="show-prev-btn"> < </button>
+  		<div class="container">
+        <img class="slide-img" src="https://proprikol.ru/wp-content/uploads/2020/03/sinij-czvet-krasivye-kartinki-1-650x433.jpg">
+      </div>
+      <button class="show-next-btn"> > </button>
+  	</div>
+  </section>
+</body>
+
+</html>
